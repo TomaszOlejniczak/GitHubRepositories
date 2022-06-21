@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/940ef62cd3.js" crossorigin="anonymous"></script>
+    <title>GitHub Repo Name</title>
+  </head>
+  <body>
+    <header>
+      <h2>GitHub user's repositories list on demand</h2>
+    </header>
+    <!-- app title -->
+    <div class="form">
+      <label for="username">User name:</label>
+      <div class="input">
+        <input id="username" type="text" placeholder="allegro" />
+        <button id="getList">Search</button>
+      </div>
+    </div>
+    <!-- form with user name input and searching button -->
+    <p id="placeholder"></p>
+    <!-- placeholder for validation msgs and data lists headers-->
+    <table id="table">
+      <thead id="thead">
+        <tr>
+          <th style="text-align: left;">
+            <span id="repoName">Name</span>
+          </th>
+          <th style="text-align: right;">
+            <span id="repoStars"><i class="fas fa-star"></i></span>
+          </th>
+          <th>
+            <span id="repoLang"><i class="fa-solid fa-code"></i></span>
+          </th>
+        </tr>
+      </thead>
+      <tbody id="repoList"></tbody>
+    </table>
+    <!-- data injection  -->
+    <script src="./index.js"></script>
+  </body>
+</html>
