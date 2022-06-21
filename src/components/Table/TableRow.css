@@ -1,0 +1,16 @@
+td p {
+    display: flex;
+    margin: 0;
+}
+
+span:first-of-type {
+    font-weight: bold;
+}
+
+span {
+    font-size: 12px;
+}
+
+p {
+    margin: 0;
+}

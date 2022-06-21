@@ -1,0 +1,48 @@
+input {
+  font-family: Nunito;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 8px;
+  border: 1px solid #ff5a00;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #ff5a00;
+  box-shadow: 0 0 7px #ff5a00;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  display: flex;
+  font-size: 18px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+button {
+  height: 27px;
+  width: 90px;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: inherit;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: 0.4s;
+  color: #ff5a00;
+  border-radius: 8px;
+  border: 1px solid #ff5a00;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, #ff5a00 50%, transparent 50%);
+}
+
+button:hover {
+  background-position: 0 100%;
+  color: #fff;
+}
